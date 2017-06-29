@@ -11,6 +11,8 @@ public class Ball extends PApplet{
 		this.x = 500;
 		this.y = 300;
 		this.size = 25;
+		this.speed = 2;
+		this.xspeed = 5;
 	}
 	public void draw(){
 		parent.ellipse(x,y,size,size);
